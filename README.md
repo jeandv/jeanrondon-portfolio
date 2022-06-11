@@ -1,3 +1,51 @@
+## Descripción 💬
+
+✔ En este repositorio esta un mi portafolio web hecho con React JS y usando Sanity como su backend.
+
+## Autor 🤠
+
+· [LinkedIn](https://www.linkedin.com/in/jeandv/) <br>
+· [Twitter](https://www.twitter.com/r4yb4/) <br>
+· [Instagram](https://www.instagram.com/._jeanr/) <br>
+· [GitHub](https://github.com/jeandv/) 
+
+## URL para ver el resultado 👁‍🗨
+
+✔ Para ver el resultado final puedes verlo aquí! https://jeanrondon-portfolio.vercel.app/
+
+## Tecnologias usadas 🛠️
+
+· HTML5 <br>
+· CSS3 <br>
+· SCSS <br>
+· SASS <br>
+· JavaScript <br>
+· React JS <br>
+· Componentes <br>
+· Hooks (useState, useEffect, etc...) <br>
+
+-Backend: <br>
+· Sanity <br>
+
+## Instalación 💻
+
+✔ Sigue los pasos mas abajo.
+
+## Contratación 📧
+
+Si quieres contratarme puedes escribirme a jeanrdev@gmail.com o a mi [LinkedIn](https://www.linkedin.com/in/jeandv/) para consultas.
+
+# Vista previa 🔎
+
+![foto-portfolio](https://user-images.githubusercontent.com/90219458/173177752-bc830f38-cbbc-48ec-ad98-41fa37201fc6.png)
+
+<small>Creado por Jean Rondón</small>
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
