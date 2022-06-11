@@ -33,7 +33,7 @@
 
 ## Contratación 📧
 
-Si quieres contratarme puedes escribirme a jeanrdev@gmail.com o a mi [LinkedIn](https://www.linkedin.com/in/jeandv/) para consultas.
+Si quieres contratarme puedes escribirme a jeanrdev@gmail.com o a mi [LinkedIn](https://www.linkedin.com/in/jeandv/) para consultas o tambien puedes hablarme por Whatsapp +58 4245494242
 
 # Vista previa 🔎
 
