@@ -11,7 +11,7 @@
 
 ## URL para ver el resultado 👁‍🗨
 
-✔ Para ver el resultado final puedes verlo aquí! https://jeanrondon-portfolio.vercel.app/
+✔ Para ver el resultado final puedes verlo aquí! jeandv.vercel.app
 
 ## Tecnologias usadas 🛠️
 
