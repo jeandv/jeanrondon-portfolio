@@ -14,7 +14,7 @@ const SocialMedia = () => (
                 <BsGithub />
             </a>
         </div>
-        {/* <div>
+        <div>
             <a href='https://twitter.com/r4yb4' target='https://twitter.com/r4yb4'>
                 <BsTwitter />
             </a>
@@ -23,7 +23,7 @@ const SocialMedia = () => (
             <a href='https://www.instagram.com/_.jeanr' target='https://www.instagram.com/jeanr.js'>
                 <BsInstagram />
             </a>
-        </div> */}
+        </div>
     </div>
 );
 
