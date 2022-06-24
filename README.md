@@ -23,6 +23,7 @@
 · React JS <br>
 · Componentes <br>
 · Hooks (useState, useEffect, etc...) <br>
+· Framer Motion <br>
 
 -Backend: <br>
 · Sanity <br>
