@@ -25,7 +25,7 @@ const Skills = () => {
 
     return (
         <>
-            <h2 className="head-text">Tools & <span>Skills</span></h2>
+            <h2 className="head-text">Mis <span>Skills</span></h2>
 
             <div className="app__skills-container">
                 <motion.div className="app__skills-list">

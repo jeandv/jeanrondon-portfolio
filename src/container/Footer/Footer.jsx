@@ -9,7 +9,7 @@ import './Footer.scss';
 const Footer = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-    const [loading, setLoading] = useState(false);
+    const [setLoading] = useState(false);
 
     const { username, email, message } = formData;
 
@@ -21,19 +21,22 @@ const Footer = () => {
     const handleSubmit = () => {
         setLoading(true);
 
-        const contact = {
-            _type: 'contact',
-            name: formData.username,
-            email: formData.email,
-            message: formData.message,
-        };
+        if (formData.username !== '' & formData.email !== '' & formData.message !== '') {
 
-        client.create(contact)
-            .then(() => {
-                setLoading(false);
-                setIsFormSubmitted(true);
-            })
-            .catch((err) => console.log(err));
+            const contact = {
+                _type: 'contact',
+                name: formData.username,
+                email: formData.email,
+                message: formData.message,
+            };
+
+            client.create(contact)
+                .then(() => {
+                    setLoading(false);
+                    setIsFormSubmitted(true);
+                })
+                .catch((err) => console.log(err));
+        }
     };
 
     return (
@@ -66,7 +69,7 @@ const Footer = () => {
                             onChange={handleChangeInput}
                         />
                     </div>
-                    <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Enviar mensaje' : 'Enviando...'}</button>
+                    <button type="button" className="p-text" onClick={handleSubmit}>{!isFormSubmitted ? 'Enviar mensaje' : 'Enviando...'}</button>
                 </div>
             ) : (
                 <div>

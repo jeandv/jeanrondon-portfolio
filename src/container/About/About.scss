@@ -37,9 +37,14 @@
         width: 40%;
         margin: 0 auto;
         height: 170px;
-        border-radius: 15px;
+        border-radius: 8px;
         object-fit: cover;
         filter: grayscale(100%);
+        transition: all 500ms;
+
+        &:hover {
+            filter: none;
+        }
     }
 
     @media screen and (min-width: 2000px) {
