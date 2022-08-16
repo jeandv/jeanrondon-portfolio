@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
@@ -45,7 +44,6 @@ const Navbar = () => {
     )
 }
 
-=======
 import React, { useState } from 'react';
 
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
@@ -92,5 +90,4 @@ const Navbar = () => {
     )
 }
 
->>>>>>> 4d0818b (cambios-2)
 export default Navbar
