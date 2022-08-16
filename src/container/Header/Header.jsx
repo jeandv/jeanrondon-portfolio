@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -73,5 +74,3 @@ const Header = () => (
 );
 
 export default AppWrap(MotionWrap(Header, 'home'), 'home', 'app_whitebg');
-
-// export default Header;

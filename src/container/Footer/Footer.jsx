@@ -9,7 +9,6 @@ import './Footer.scss';
 const Footer = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-    const [setLoading] = useState(false);
 
     const { username, email, message } = formData;
 
@@ -19,24 +18,20 @@ const Footer = () => {
     };
 
     const handleSubmit = () => {
-        setLoading(true);
 
-        if (formData.username !== '' & formData.email !== '' & formData.message !== '') {
+        const contact = {
+            _type: 'contact',
+            name: formData.username,
+            email: formData.email,
+            message: formData.message,
+        };
 
-            const contact = {
-                _type: 'contact',
-                name: formData.username,
-                email: formData.email,
-                message: formData.message,
-            };
+        client.create(contact)
+            .then(() => {
 
-            client.create(contact)
-                .then(() => {
-                    setLoading(false);
-                    setIsFormSubmitted(true);
-                })
-                .catch((err) => console.log(err));
-        }
+                setIsFormSubmitted(true);
+            })
+            .catch((err) => console.log(err));
     };
 
     return (
