@@ -32,7 +32,7 @@ const About = () => {
                         <img src={urlFor(about.imgUrl)} alt={about.title} />
                         <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
                         <p className="p-text">{about.description}</p>
-                        <a href='https://www.canva.com/design/DAFAN-YP2CA/tKvPjmx8slDoK_cICZ7IZw/view?utm_content=DAFAN-YP2CA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target='_blank' rel='noreferrer' className='ver-cv'>Ver CV</a>
+                        <a href='https://jeandv.showwcase.com' target='_blank' rel='noreferrer' className='ver-cv'>Ver CV</a>
                     </motion.div>
                 ))}
             </div>
